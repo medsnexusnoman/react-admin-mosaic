@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				islamabad: {
+					red: "#E01E1E",
+					blue: "#0052CC",
+					orange: "#F97316",
+					yellow: "#FACC15",
 				}
 			},
 			borderRadius: {
@@ -89,6 +96,9 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			backgroundImage: {
+				'gradient-islamabad': 'linear-gradient(135deg, #E01E1E 0%, #0052CC 50%, #F97316 75%, #FACC15 100%)',
 			}
 		}
 	},
