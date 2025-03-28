@@ -12,14 +12,26 @@ import AdminLayout from "./components/admin/AdminLayout";
 // Main Pages
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Contact from "./pages/Contact";
 
 // Auth Pages
 import SignIn from "./pages/auth/SignIn";
 import SignUp from "./pages/auth/SignUp";
+import Profile from "./pages/auth/Profile";
 
 // Module Pages
 import Matrimonial from "./pages/modules/Matrimonial";
 import Directory from "./pages/modules/Directory";
+import Commercial from "./pages/modules/Commercial";
+import Academy from "./pages/modules/Academy";
+import News from "./pages/modules/News";
+import Jobs from "./pages/modules/Jobs";
+
+// About Pages
+import Manifesto from "./pages/about/Manifesto";
+import Directors from "./pages/about/Directors";
+import Membership from "./pages/about/Membership";
+import Activities from "./pages/about/Activities";
 
 // Admin Pages
 import Dashboard from "./pages/admin/Dashboard";
@@ -41,18 +53,19 @@ const App = () => (
             {/* Module Routes */}
             <Route path="modules/matrimonial" element={<Matrimonial />} />
             <Route path="modules/directory" element={<Directory />} />
-            <Route path="modules/commercial" element={<Index />} />
-            <Route path="modules/academy" element={<Index />} />
-            <Route path="modules/news" element={<Index />} />
-            <Route path="modules/jobs" element={<Index />} />
+            <Route path="modules/commercial" element={<Commercial />} />
+            <Route path="modules/academy" element={<Academy />} />
+            <Route path="modules/news" element={<News />} />
+            <Route path="modules/jobs" element={<Jobs />} />
             
             {/* About Routes */}
-            <Route path="about/manifesto" element={<Index />} />
-            <Route path="about/directors" element={<Index />} />
-            <Route path="about/membership" element={<Index />} />
-            <Route path="about/activities" element={<Index />} />
+            <Route path="about/manifesto" element={<Manifesto />} />
+            <Route path="about/directors" element={<Directors />} />
+            <Route path="about/membership" element={<Membership />} />
+            <Route path="about/activities" element={<Activities />} />
             
-            <Route path="contact" element={<Index />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="profile" element={<Profile />} />
           </Route>
           
           {/* Auth Routes */}
