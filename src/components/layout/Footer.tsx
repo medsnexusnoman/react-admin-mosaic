@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Mail, Phone } from "lucide-react";
+import { Facebook, Twitter, Instagram, Mail, Phone, Clock, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -18,7 +18,7 @@ export default function Footer() {
               <span className="ml-2 text-lg font-bold text-islamabad-red">ISCWA</span>
             </div>
             <p className="mt-3 text-sm text-gray-600">
-              Islambohan Sindhera Cultural & Welfare Association is committed to promoting the welfare and cultural heritage of our community.
+              Islamabadian Sindhiera Cultural & Welfare Association is committed to promoting the welfare and cultural heritage of our community.
             </p>
           </div>
 
@@ -85,13 +85,21 @@ export default function Footer() {
           <div className="col-span-1">
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">Contact Us</h3>
             <ul className="mt-4 space-y-2">
+              <li className="flex items-start text-sm text-gray-600">
+                <MapPin className="h-5 w-5 mr-2 text-islamabad-red shrink-0 mt-0.5" />
+                <span>Office# 19, 3rd Floor, Capital Plaza, G-11 Markaz, Islamabad, Pakistan</span>
+              </li>
               <li className="flex items-center text-sm text-gray-600">
                 <Mail className="h-5 w-5 mr-2 text-islamabad-red" />
-                <span>info@iscwa.org</span>
+                <span>islamabadiansindhiera@gmail.com</span>
               </li>
               <li className="flex items-center text-sm text-gray-600">
                 <Phone className="h-5 w-5 mr-2 text-islamabad-red" />
-                <span>+92 321 1234567</span>
+                <span>0300 5291366</span>
+              </li>
+              <li className="flex items-center text-sm text-gray-600">
+                <Clock className="h-5 w-5 mr-2 text-islamabad-red" />
+                <span>Always open</span>
               </li>
             </ul>
             <div className="mt-6">
@@ -113,7 +121,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-200">
           <p className="text-center text-sm text-gray-600">
-            &copy; {new Date().getFullYear()} Islambohan Sindhera Cultural & Welfare Association. All rights reserved.
+            &copy; {new Date().getFullYear()} Islamabadian Sindhiera Cultural & Welfare Association. All rights reserved.
           </p>
         </div>
       </div>

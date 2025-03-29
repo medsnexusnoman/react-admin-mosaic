@@ -58,7 +58,7 @@ const Index = () => {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="z-10 text-center px-4 sm:px-6 lg:px-8">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-              Islambohan Sindhera Cultural & Welfare Association
+              Islamabadian Sindhiera Cultural & Welfare Association
             </h1>
             <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
               Promoting cultural heritage and community welfare
@@ -91,7 +91,7 @@ const Index = () => {
               <h3 className="text-xl font-bold mb-3">Our Mission</h3>
               <p className="text-gray-600">
                 To promote cultural awareness, provide welfare assistance, and create a supportive
-                community for all members of the Islambohan Sindhera Cultural & Welfare Association.
+                community for all members of the Islamabadian Sindhiera Cultural & Welfare Association.
               </p>
               <Button asChild variant="link" className="mt-4 p-0 text-islamabad-red">
                 <Link to="/about/manifesto">Read Our Manifesto</Link>

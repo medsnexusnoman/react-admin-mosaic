@@ -32,7 +32,7 @@ export default function Header() {
             <img 
               className="h-12 w-auto" 
               src="/lovable-uploads/b4652c25-7f6b-4c1a-9084-65d470fe5927.png" 
-              alt="Islambohan Sindhera Cultural & Welfare Association" 
+              alt="Islamabadian Sindhiera Cultural & Welfare Association" 
             />
             <span className="hidden md:block text-islamabad-red font-bold text-lg">ISCWA</span>
           </Link>
@@ -128,7 +128,7 @@ export default function Header() {
               <img 
                 className="h-8 w-auto" 
                 src="/lovable-uploads/b4652c25-7f6b-4c1a-9084-65d470fe5927.png" 
-                alt="Islambohan Sindhera Cultural & Welfare Association" 
+                alt="Islamabadian Sindhiera Cultural & Welfare Association" 
               />
             </Link>
             <button

@@ -78,6 +78,11 @@ const Manifesto = () => {
       icon: Heart,
     },
     {
+      title: "Sorrows & Happiness",
+      description: "Community stand at the time of sorrows & happiness, providing support during both difficult and joyful occasions.",
+      icon: Users,
+    },
+    {
       title: "Education & Career",
       description: "Career Counseling & Scholarship Wing to empower community members through education, job placement, and professional development.",
       icon: GraduationCap,
@@ -94,7 +99,7 @@ const Manifesto = () => {
     },
     {
       title: "Matrimonial Services",
-      description: "Help community to find suitable matches supporting them in finding compatible life partners and fostering healthy marriages within the community.",
+      description: "ISCWA will help community to find suitable matches supporting them in finding compatible life partners and fostering healthy marriages within the community.",
       icon: Users,
     },
     {
@@ -108,7 +113,7 @@ const Manifesto = () => {
       icon: TreePine,
     },
     {
-      title: "Community Center",
+      title: "Marquee Dream",
       description: "Develop a multi-purpose facility including a marriage hall, conference room, cultural arena, gym, swimming pool, and student hostel to serve the diverse needs of the community.",
       icon: Building,
     },
